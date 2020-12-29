@@ -57,7 +57,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "15",
+        "repeat": "",
         "crontab": "",
         "once": true,
         "onceDelay": "1",
