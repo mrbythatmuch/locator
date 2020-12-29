@@ -1,0 +1,12 @@
+{
+    "name": "Locator",
+    "description": "Bluetooth location in the house",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_bt_location.json",
+            "credentialsFile": "flows_bt_location_cred.json"
+        }
+    }
+}
