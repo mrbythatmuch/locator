@@ -57,10 +57,10 @@
                 "vt": "str"
             }
         ],
-        "repeat": "900",
+        "repeat": "15",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "1",
         "topic": "start",
         "payload": "{}",
         "payloadType": "json",
@@ -139,7 +139,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"peripheral\": $.peripheral,\t   \"rssi\":$.rssi,\t   \"timestamp\": $now()\t   \"rxDevice\": \"pi3\"\t}",
+                "to": "{\t   \"peripheral\": $.peripheral,\t   \"rssi\":$.rssi,\t   \"timestamp\": $now(),\t   \"rxDevice\": \"pi3\"\t}",
                 "tot": "jsonata"
             }
         ],
